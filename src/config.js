@@ -1,0 +1,1 @@
+import 'dotenv/config';export const config = {  port: process.env.PORT || 3000,  env: process.env.NODE_ENV || 'production',  rapidapi: {    key: process.env.RAPIDAPI_KEY,    host: process.env.RAPIDAPI_HOST,    baseUrl: 'https://fresh-linkedin-scraper-api.p.rapidapi.com'  },  maxResults: 5,};
