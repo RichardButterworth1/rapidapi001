@@ -1,0 +1,1 @@
+services:  - type: web    name: linkedin-rapidapi-service    env: node    plan: free    buildCommand: "npm install"    startCommand: "npm start"    autoDeploy: true    envVars:      - key: RAPIDAPI_KEY        sync: false      - key: RAPIDAPI_HOST        value: fresh-linkedin-scraper-api.p.rapidapi.com      - key: PORT        value: "3000"
